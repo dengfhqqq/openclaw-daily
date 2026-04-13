@@ -5,6 +5,7 @@
 ## 目录
 - [2026-04-13｜官方版 OpenClaw：onboard 后到稳定可用（傻瓜式命令）](./diary/2026-04-13-openclaw-official-onboard-to-stable.md)
 - [2026-04-13｜官方版 OpenClaw 极简清单（20 条命令）](./diary/2026-04-13-openclaw-official-quick-checklist.md)
+- [2026-04-13｜阶段二：多 Agent 技能分工 + 最小权限收敛（已验收）](./diary/2026-04-13-phase2-skills-and-least-privilege.md)
 
 ## 当前稳定基线（2026-04-13）
 - OpenClaw: `2026.4.11`
@@ -34,3 +35,4 @@ openclaw agents list --json
 ## 说明
 - 本仓库以“可复制、可回滚、可验证”为原则，只记录我实际跑通过的步骤。
 - 详细步骤、排错与命令见日记文件。
+
