@@ -6,14 +6,17 @@
 - [2026-04-13｜官方版 OpenClaw：onboard 后到稳定可用（傻瓜式命令）](./diary/2026-04-13-openclaw-official-onboard-to-stable.md)
 - [2026-04-13｜官方版 OpenClaw 极简清单（20 条命令）](./diary/2026-04-13-openclaw-official-quick-checklist.md)
 - [2026-04-13｜阶段二：多 Agent 技能分工 + 最小权限收敛（已验收）](./diary/2026-04-13-phase2-skills-and-least-privilege.md)
+- [2026-04-16｜阶段三：双人隔离、多代理收敛、Cron 与媒体链路验收](./diary/2026-04-16-phase3-routing-cron-media.md)
 
-## 当前稳定基线（2026-04-13）
+## 当前稳定基线（2026-04-16）
 - OpenClaw: `2026.4.11`
 - Gateway: `local + loopback`
 - Model: `openai-codex/gpt-5.4`（OAuth 登录）
-- Agents: `main, researcher, coder, writer, polisher`
+- Agents: `main, researcher, coder, writer, polisher, ops` + `*_wife` 隔离组
 - Web: `tools.web.search=tavily + openaiCodex(cached) + web_fetch`
 - Channel: Telegram 已接通
+- Cron: 报餐提醒双任务（`10:00` + `11:50`）已落地
+- Media: CLI 附件发送链路已验证（返回 `messageId`）
 
 ## 快速复现（超简版）
 ```bash
